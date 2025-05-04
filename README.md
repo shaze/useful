@@ -20,7 +20,7 @@ This produces a series of PDFs, `drawing-0.pdf`, `drawing-1.pdf`, `drawing-2.pdf
 To include this in your LaTeX you would do this
 
 ```
-\multiinclude[format=pdf,graphics={width=10cm}]{drawing}
+\multiinclude[<+>][format=pdf,graphics={width=10cm}]{drawing}
 ```
 
 (The `graphics` parameter are options that are normally passed to the `\includegraphics` command -- you can omit if you want. Also read up about `multiinclue` for more advanced features). `multiiinclude` will produce (in this case) four separate slides which gives the appearance of animination.
